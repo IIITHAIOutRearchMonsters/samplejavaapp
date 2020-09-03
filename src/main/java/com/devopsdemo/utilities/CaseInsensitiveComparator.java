@@ -93,6 +93,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
                 } else if (obj.equals(DATATYPE_DOUBLE)) {
                         acutal = ((Double) v1).compareTo((Double) v2) * determinePosition();
                 }
+                
                 return acutal;
         }
 
